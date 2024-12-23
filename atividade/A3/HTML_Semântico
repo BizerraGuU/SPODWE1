@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe Layout</title>
+</head>
+<body>
+    <header>
+        <h1>Profile Header</h1>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div id="photo">
+                <p>Profile Photo</p>
+            </div>
+            <div id="details">
+                <ul>
+                    <li>Education</li>
+                    <li>Current Work</li>
+                    <li>E-mail</li>
+                    <li>Main Phone</li>
+                    <li>Skills</li>
+                </ul>
+                <div id="skills">
+                    <ul>
+                        <li>Python</li>
+                        <li>AWS</li>
+                        <li>English</li>
+                        <li>SQL</li>
+                        <li>Portuguese</li>
+                        <li>Programming Logic</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="summary">
+            <h2>Key Summary</h2>
+            <p>Summary content here...</p>
+        </section>
+
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+
+            <article class="job">
+                <h3>Job Vacancy - Enterprise</h3>
+                <p>Init Date - Current</p>
+                <p>Job description content...</p>
+            </article>
+
+            <article class="job">
+                <h3>Job Vacancy - Enterprise</h3>
+                <p>Init Date - Final Date</p>
+                <p>Job description content...</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Footer content here...</p>
+    </footer>
+</body>
+</html>
