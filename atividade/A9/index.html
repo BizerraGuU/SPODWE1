@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stylish Border Radius Previewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Exercicio 9 - Radius </h1>
+  <div class="container">
+    <div class="preview-box" id="preview-box">Preview</div>
+
+    <div class="controls">
+      <div class="control">
+        <label for="top-left">Top Left</label>
+        <input type="range" id="top-left" min="0" max="150" value="30">
+      </div>
+      <div class="control">
+        <label for="top-right">Top Right</label>
+        <input type="range" id="top-right" min="0" max="150" value="30">
+      </div>
+      <div class="control">
+        <label for="bottom-left">Bottom Left</label>
+        <input type="range" id="bottom-left" min="0" max="150" value="30">
+      </div>
+      <div class="control">
+        <label for="bottom-right">Bottom Right</label>
+        <input type="range" id="bottom-right" min="0" max="150" value="30">
+      </div>
+    </div>
+
+    <div class="output" id="output">border-radius: 30px 30px 30px 30px;</div>
+  </div>
+
+  <footer><h2>Desenvolvido Por Gustavo Bezerra de Andrade</h2></footer>
+  <script src="script.js"></script>
+</body>
+</html>
